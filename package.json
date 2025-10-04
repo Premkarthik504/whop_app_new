@@ -9,21 +9,33 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@tanstack/react-table": "^8.20.5",
 		"@vercel/functions": "^2.0.3",
+		"@vercel/postgres": "^0.10.0",
 		"@whop/api": "^0.0.50",
 		"@whop/react": "0.2.36",
+		"date-fns": "^4.1.0",
+		"drizzle-orm": "^0.36.0",
+		"lodash": "^4.17.21",
 		"next": "15.3.2",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"react-hot-toast": "^2.4.1",
+		"recharts": "^2.15.0",
+		"resend": "^4.0.1",
+		"simple-statistics": "^7.8.8",
+		"zod": "^3.24.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@tailwindcss/postcss": "^4",
+		"@types/lodash": "^4.17.13",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"@whop-apps/dev-proxy": "0.0.1-canary.116",
 		"dotenv-cli": "^8.0.0",
+		"drizzle-kit": "^0.28.0",
 		"tailwindcss": "^4",
 		"typescript": "^5"
 	},
